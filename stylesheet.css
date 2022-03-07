@@ -1,0 +1,104 @@
+body {
+    background-color: #fffbc8; 
+    margin: 30px;
+}
+p {
+    margin: 30px;
+    color: #091540;  
+      font-size: 20px;
+      font-family: "Verdana", "Tahoma", sans-serif;
+}
+
+h1 {
+      margin: 30px;
+      font-family: "Lucida Handwriting", cursive;
+      color: #FBE888;
+      text-align: center;
+      background-color: #6D9DC5;
+      font-size: 60px;
+    }
+h2 {
+      margin: 30px;
+      color: #FF5154;
+      text-align: center;
+      font-size: 30px;
+      font-family: "Lucida Handwriting", cursive;
+    }
+h3 {
+      margin: 30px;
+      color: #FF5154;
+      text-align: center;
+      font-size: 40px;
+      font-family: "Lucida Handwriting", cursive;
+    }
+h4 {
+      margin: 30px;
+      color: #FFFFFF;
+      text-align: center;
+      background-color: #091540;
+      font-size: 30px;
+      font-family: "Georgia", serif;
+    }
+li.classes {
+    color: #FF5154;
+    display: block;
+    text-align: left;
+    padding: 5px;
+    font-size: 20px;
+    font-family: "Georgia", serif; 
+}
+
+ul {
+      margin: 0px;
+      text-align: center;
+}
+li {
+      color: #FF5154;
+      list-style-type: none;
+      display: inline;
+      padding: 30px;
+      font-size: 20px;
+      font-family: "Lucida Handwriting", cursive;
+}
+
+
+dl {
+    margin: 30px;
+    text-align: left;
+}
+dt {
+    color: #6D9DC5;
+      list-style-type: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+      font-size: 30px;
+      font-family: "Lucida Handwriting", cursive;
+}
+dd {
+    color: #091540;
+      list-style-type: none;
+      font-size: 20px;
+      font-family: "Verdana", "Tahoma", sans-serif;
+      display: run-in;
+}
+.portfolio {
+    width: 445px;
+  float: left;
+  margin: 30px;
+  height: auto;
+}
+.portrait {
+    width: 500px;
+    height: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: #6D9DC5;
+}
+a:hover {
+      color: #dde0e3;
+      text-decoration: none;
+      font-size: 22px;
+}
