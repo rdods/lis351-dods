@@ -81,6 +81,12 @@ dd {
       font-family: "Verdana", "Tahoma", sans-serif;
       display: run-in;
 }
+img {
+    float: left;
+}
+p.first {
+    font-size: 30px;
+}
 .portfolio {
     width: 445px;
   float: left;
