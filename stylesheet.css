@@ -1,5 +1,5 @@
 body {
-    background-color: #fffbc8; 
+    background-color: #FFFFFF; 
     margin: 30px;
 }
 p {
@@ -10,23 +10,22 @@ p {
 }
 
 h1 {
-      margin: 30px;
+     margin: 10px;
       font-family: "Lucida Handwriting", cursive;
-      color: #FBE888;
-      text-align: center;
-      background-color: #6D9DC5;
-      font-size: 60px;
+      color: #091540;
+      text-align: left;
+      font-size: 20px;
     }
 h2 {
-      margin: 30px;
-      color: #FF5154;
+      color: #6D9DC5;
       text-align: center;
-      font-size: 30px;
+      font-size: 40px;
       font-family: "Lucida Handwriting", cursive;
+    padding: 20px;
     }
 h3 {
       margin: 30px;
-      color: #FF5154;
+      color: #091540;
       text-align: center;
       font-size: 40px;
       font-family: "Lucida Handwriting", cursive;
@@ -40,7 +39,7 @@ h4 {
       font-family: "Georgia", serif;
     }
 li.classes {
-    color: #FF5154;
+    color: #091540;
     display: block;
     text-align: left;
     padding: 5px;
@@ -53,7 +52,7 @@ ul {
       text-align: center;
 }
 li {
-      color: #FF5154;
+      color: #091540;
       list-style-type: none;
       display: inline;
       padding: 30px;
@@ -81,24 +80,68 @@ dd {
       font-family: "Verdana", "Tahoma", sans-serif;
       display: run-in;
 }
-img {
-    float: left;
-}
 p.first {
+    font-size: 20px;
+    margin: 100px;
+    padding-left: 50px;
+    padding-top: 20px;
+    
+}
+p.home {
+    font-family: "Verdana", "Tahoma", sans-serif;
+    font-size: 40px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    padding: 40px;
+    background-color: #6D9DC5;
+    text-align: center;
+    max-width: 90%;
+}
+p.frontpage {
+    font-family: "Verdana", "Tahoma", sans-serif;
     font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    margin: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: #091540;
+    background-color: #FFECA4;
+}
+p.abouttext {
+    font-family: "Verdana", "Tahoma", sans-serif;
+    font-size: 20px;
+    max-width: 90%;
+    padding: 20px;
+    text-align: left;
+    background-color: #FFECA4;
+    margin-left: 50px;
 }
 .portfolio {
-    width: 445px;
+    width: 500px;
   float: left;
   margin: 30px;
   height: auto;
+    margin-left: 20%;
 }
 .portrait {
-    width: 500px;
-    height: auto;
-    display:block;
+    width: 30%;
+    height: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    float: left;
+}
+.swing {
+    max-width: 400px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 40px;
+    float: left;
 }
 a {
     color: #6D9DC5;
@@ -107,4 +150,21 @@ a:hover {
       color: #dde0e3;
       text-decoration: none;
       font-size: 22px;
+}
+div.picandtext {
+    max-height: 400px;
+    max-width: 960px;
+}
+figcaption {
+    font-family: "Verdana", "Tahoma", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #091540;
+    display: block;
+    max-width: 40%;
+    margin: 50px;
+    margin-left: 40%;
+    padding-top: 30px;
+    margin-bottom: 40%;
+    padding-left: 40px;
 }
