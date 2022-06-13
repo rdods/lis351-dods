@@ -11,7 +11,7 @@ p {
 
 h1 {
      margin: 10px;
-      font-family: "Lucida Handwriting", cursive;
+      font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
       color: #091540;
       text-align: left;
       font-size: 20px;
@@ -20,15 +20,18 @@ h2 {
       color: #6D9DC5;
       text-align: center;
       font-size: 40px;
-      font-family: "Lucida Handwriting", cursive;
+      font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
     padding: 20px;
     }
 h3 {
-      margin: 30px;
+      margin: 10px;
       color: #091540;
       text-align: center;
-      font-size: 40px;
-      font-family: "Lucida Handwriting", cursive;
+      font-size: 20px;
+      font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+    background-color: #dde0e3;
+    margin-left: 30%;
+    margin-right: 30%;
     }
 h4 {
       margin: 30px;
@@ -36,7 +39,7 @@ h4 {
       text-align: center;
       background-color: #091540;
       font-size: 30px;
-      font-family: "Georgia", serif;
+      font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
     }
 li.classes {
     color: #091540;
@@ -44,7 +47,7 @@ li.classes {
     text-align: left;
     padding: 5px;
     font-size: 20px;
-    font-family: "Georgia", serif; 
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
 
 ul {
@@ -57,9 +60,8 @@ li {
       display: inline;
       padding: 30px;
       font-size: 20px;
-      font-family: "Lucida Handwriting", cursive;
+      font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
-
 
 dl {
     margin: 30px;
@@ -71,7 +73,8 @@ dt {
     padding-bottom: 10px;
     padding-top: 10px;
       font-size: 30px;
-      font-family: "Lucida Handwriting", cursive;
+      font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+    text-decoration: underline;
 }
 dd {
     color: #091540;
@@ -108,7 +111,7 @@ p.frontpage {
     margin-left: 120px;
     margin-right: 120px;
     color: #091540;
-    background-color: #FFECA4;
+    background-color: #dde0e3;
 }
 p.abouttext {
     font-family: "Verdana", "Tahoma", sans-serif;
@@ -116,7 +119,7 @@ p.abouttext {
     max-width: 90%;
     padding: 20px;
     text-align: left;
-    background-color: #FFECA4;
+    background-color: #dde0e3;
     margin-left: 50px;
 }
 .portfolio {
@@ -161,10 +164,42 @@ figcaption {
     text-align: center;
     color: #091540;
     display: block;
+    max-width: 50%;
+    margin: 50px;
+    margin-left: 40%;
+    padding-top: 5%;
+    padding-left: 40px;
+}
+figcaption.horizontal {
+     font-family: "Verdana", "Tahoma", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #091540;
+    display: block;
     max-width: 40%;
     margin: 50px;
     margin-left: 40%;
-    padding-top: 30px;
-    margin-bottom: 40%;
-    padding-left: 40px;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+figure {
+    padding: 50px;
+    margin-bottom: 30%;
+}
+figure.final {
+    padding: 50px;
+    margin-bottom: 5%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 5%;
+   margin-left: 45%;
+  margin-right: 45%;
+            min-width: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
